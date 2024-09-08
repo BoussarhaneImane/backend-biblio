@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "66969df3ed918e623919c703"
+  },
+  "name": "imanoussarhane",
+  "email": "mohameduser555@gmail.com",
+  "password": "mohameduser1234666",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66969e3aed918e623919c705"
+  },
+  "name": "imane boussarhane",
+  "email": "mohameduser@gmail.com",
+  "password": "mohameduser1234",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66969e6bed918e623919c707"
+  },
+  "name": "imaarhane",
+  "email": "mohameduser33@gmail.com",
+  "password": "mohameduser123477",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66969ea0ed918e623919c709"
+  },
+  "name": "imanoussarhane",
+  "email": "mohameduse22r@gmail.com",
+  "password": "mohameduser1234{{",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66969ecbed918e623919c70b"
+  },
+  "name": "nadiauser44",
+  "email": "nadiauser44@gmail.com",
+  "password": "nadiauser44",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6696a13132d7e91a0b892529"
+  },
+  "name": "imane44",
+  "email": "imane44@gmail.com",
+  "password": "imane44",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6696a44b249470b072557871"
+  },
+  "name": "imsarhane",
+  "email": "imsarhane@gmail.com",
+  "password": "imsarhane",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6696c173249470b072557877"
+  },
+  "name": "zakariauser2",
+  "email": "zakariauser2@gmail.com",
+  "password": "zakariauser2",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6696c1c3249470b07255787a"
+  },
+  "name": "imane221",
+  "email": "imane221@gmail.com",
+  "password": "imane221",
+  "__v": 0
+}]
