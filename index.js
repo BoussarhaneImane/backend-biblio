@@ -1,4 +1,5 @@
-require('dotenv').config();
+require('dotenv').config();  // Assurez-vous que cela est en haut du fichier
+
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -15,6 +16,12 @@ app.use(cors());
 const mongoUri = process.env.MONGO_URL;
 const PORT = process.env.PORT || 5000;
 
+// Vérification si la variable d'environnement MONGO_URL est correctement chargée
+if (!mongoUri) {
+  console.error("Error: MongoDB connection URI is not defined. Please check your .env file.");
+  process.exit(1); // Arrête le serveur si l'URI MongoDB est manquante
+}
+
 // Connexion à MongoDB
 const connectToMongoDB = async () => {
   try {
@@ -28,6 +35,7 @@ const connectToMongoDB = async () => {
     console.info("Connected to MongoDB Atlas successfully");
   } catch (err) {
     console.error("Error connecting to MongoDB:", err);
+    process.exit(1);  // Arrête le serveur si la connexion échoue
   }
 };
 
@@ -68,7 +76,7 @@ app.use('/orders', orderRoutes); // Utiliser les routes définies pour les comma
 
 // Routes de test
 app.get('/', (req, res) => {
-  res.send('Hello backend from express by imane');
+  res.send('Hello backend from express by imane again ');
 });
 
 app.get('/hy', (req, res) => {
